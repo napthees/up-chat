@@ -1,4 +1,4 @@
-# Description of the application "Up to you now!"
+# Description of the application "Up Chat!"
 A basic Chat.
 
 ## Install and Start
