@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html>
+
     <head>
         <meta charset="utf-8" />
         <title>Socket.io</title>
     </head>
- 
+
     <body>
         <h1>Communication avec socket.io !</h1>
 
         <p><input type="button" value="Embêter le serveur" id="poke" /></p>
 
-
+        <a href="https://snyk.io/test/github/napthees/up-chat?targetFile=package.json"><img src="https://snyk.io/test/github/napthees/up-chat/badge.svg?targetFile=package.json"
+                alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/github/napthees/up-chat?targetFile=package.json"
+                style="max-width:100%;"></a>
         <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
         <script src="/socket.io/socket.io.js"></script>
         <script>
             var socket = io.connect('http://localhost:8080');
-            socket.on('message', function(message) {
+            socket.on('message', function (message) {
                 alert('Le serveur a un message pour vous : ' + message);
             })
 
@@ -26,4 +29,5 @@
             socket.emit('petit_nouveau', pseudo);
         </script>
     </body>
+
 </html>
