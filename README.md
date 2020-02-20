@@ -1,8 +1,10 @@
+* _Updated document on February 19, 2020_
+
+[![Known Vulnerabilities](https://snyk.io/test/github/napthees/up-chat/badge.svg?targetFile=package.json)](https://snyk.io/test/github/napthees/up-chat?targetFile=package.json)
+
 # Description of the application "Up Chat!"
 
 A basic Chat.
-
-[![Known Vulnerabilities](https://snyk.io/test/github/napthees/up-chat/badge.svg?targetFile=package.json)](https://snyk.io/test/github/napthees/up-chat?targetFile=package.json)
 
 ## Install and Start
 
